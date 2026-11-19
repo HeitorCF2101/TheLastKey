@@ -1,0 +1,24 @@
+using Godot;
+using System;
+using System.Dynamic;
+
+public partial class Player : CharacterBody2D{
+
+    [Export]
+    public int Speed { get; set; } = 400;
+
+	// Called when the node enters the scene tree for the first time.
+	public override void _Ready(){
+	}
+
+    public void GetInput() {
+        Vector2 inputDirection = Input.GetVector("move_left", "move_right", "move_up", "move_down");
+        Velocity = inputDirection * Speed;
+    }
+
+	// Called every frame. 'delta' is the elapsed time since the previous frame.
+	public override void _PhysicsProcess(double delta) {
+        GetInput();
+        MoveAndSlide();
+    }
+}
