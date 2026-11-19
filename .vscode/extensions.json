@@ -1,0 +1,21 @@
+{
+    "recommendations": [
+        "geequlim.godot-tools",
+        "woberg.godot-dotnet-tools",
+        "alfish.godot-files",
+        "altamkp.godot-docs-vscode-csharp",
+        "altamkp.godot-hover-docs",
+        "altamkp.godot-tab-formatter",
+        "bitwes.gut-extension",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "GitHub.vscode-pull-request-github",
+        "EditorConfig.EditorConfig",
+        "streetsidesoftware.code-spell-checker",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml",
+        "DavidAnson.vscode-markdownlint"
+    ]
+}

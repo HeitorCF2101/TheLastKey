@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Godot: Launch project",
+            "type": "godot",
+            "request": "launch",
+            "project": "${workspaceFolder}",
+            "preLaunchTask": "dotnet: build"
+        }
+    ]
+}

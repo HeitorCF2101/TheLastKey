@@ -1,0 +1,22 @@
+# .Build directories
+bin/
+obj/
+.vs/
+/build/
+/export/
+/dist/
+
+# .env files
+*.env
+*.env.local
+
+# Godot-specific files
+*.import/
+.godot/
+
+# private documentation files
+docs/private/
+
+# Ignore the following files if you are using Visual Studio Code
+.vscode/settings.json
+
