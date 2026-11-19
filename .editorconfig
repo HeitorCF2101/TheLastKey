@@ -6,6 +6,7 @@ charset = utf-8
 [*.cs]
 
 # K&R brace style
+brace_style = k&r
 csharp_new_line_before_open_brace = none
 csharp_new_line_before_else = false
 csharp_new_line_before_catch = false

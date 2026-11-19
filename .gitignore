@@ -20,3 +20,5 @@ docs/private/
 # Ignore the following files if you are using Visual Studio Code
 .vscode/settings.json
 
+scratch/
+
