@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://bh3kn3sdd77db"]
+
+[ext_resource type="Texture2D" uid="uid://46w74isb3q46" path="res://assets/enemy/Enemy.png" id="1_ovcv5"]
+[ext_resource type="Script" uid="uid://c61ooxcubcwhw" path="res://src/actors/enemy/Enemy.cs" id="1_u2lia"]
+[ext_resource type="Script" uid="uid://qwo616m157dl" path="res://src/core/components/DetectionComponent.cs" id="3_oe5dk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u2lia"]
+size = Vector2(14, 22)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wl8hy"]
+radius = 36.0
+
+[node name="Enemy" type="CharacterBody2D" unique_id=1733988528]
+script = ExtResource("1_u2lia")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1288853442]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_u2lia")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2042841976]
+texture_filter = 1
+texture = ExtResource("1_ovcv5")
+
+[node name="DetectionComponent" type="Area2D" parent="." unique_id=1066429994]
+script = ExtResource("3_oe5dk")
+
+[node name="DetectionCollisionShape" type="CollisionShape2D" parent="DetectionComponent" unique_id=1268113728]
+shape = SubResource("CircleShape2D_wl8hy")
+debug_color = Color(0.89545286, 0.29500777, 0.32383803, 0.41960785)
