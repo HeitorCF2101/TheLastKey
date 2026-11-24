@@ -9,6 +9,7 @@ script = ExtResource("1_fvjfg")
 
 [node name="Enemy" parent="." unique_id=1733988528 instance=ExtResource("2_fkh2t")]
 position = Vector2(210, 280)
+scale = Vector2(2.5, 2.5)
 
 [node name="Player" parent="." unique_id=490222076 instance=ExtResource("2_48ajw")]
 position = Vector2(399, 281)

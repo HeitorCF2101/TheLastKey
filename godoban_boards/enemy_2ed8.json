@@ -1,0 +1,32 @@
+{
+  "name": "Enemy",
+  "next_id": 3,
+  "tags": [],
+  "epics": [],
+  "tasks": [
+    {
+      "id": "task_1",
+      "title": "Fazer sistema de movimento do Inimigo",
+      "description": "Fazer um sistema de movimento para o inimigo perseguir o player quando ele for avistado no script dele ou em um script novo chamado EnemeyAI.cs",
+      "status": "todo",
+      "priority": "low",
+      "epic_id": null,
+      "due_date": 1795996800,
+      "tags": [],
+      "created_at": 1795514917,
+      "updated_at": 1795515093
+    },
+    {
+      "id": "task_2",
+      "title": "Fazer StateMachine de detecção do inimigo",
+      "description": "Fazer um objeto de StateMachine que altere os níveis de detecção do inimigo de \"idle\", \"alerted\", \"searching\" e \"sppoted target\"\nDefinir a mudança de area da DetectionBox",
+      "status": "in_progress",
+      "priority": "high",
+      "epic_id": null,
+      "due_date": 1795651200,
+      "tags": [],
+      "created_at": 1795515083,
+      "updated_at": 1795515095
+    }
+  ]
+}

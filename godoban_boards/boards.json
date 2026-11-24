@@ -1,0 +1,10 @@
+{
+  "current": "enemy_2ed8",
+  "boards": [
+    {
+      "id": "enemy_2ed8",
+      "name": "Enemy",
+      "path": "res://godoban_boards/enemy_2ed8.json"
+    }
+  ]
+}
